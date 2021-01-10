@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+    display: flex;
+    gap: 60px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px
+}
+h1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 20px;
+}
+
+
+.text_wrap{
+    width: 400px;
+    height: 800px;
+    font-size: 16px;
+    overflow-y: auto;
+    line-height: 140%;
+}
+
+.text_wrap::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.col img {
+    height: 263px;
+    margin-bottom: 20px;
+}
+
+.col p {
+    margin-bottom: 12px;
+}
